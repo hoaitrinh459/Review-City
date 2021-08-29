@@ -1,0 +1,46 @@
+.city-home-user-content {
+    overflow: hidden;
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.city-home-user-content-img {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.name-city-home-user-content {
+    overflow: hidden;
+    font-weight: bold;
+    position: absolute;
+    text-decoration: none;
+    color: #ffffff;
+    z-index: 1;
+}
+
+.name-city-home-user-content:hover {
+    color: #23D3D3;
+}
+
+.img-city-home-user-content {
+    transition: transform 2s, filter 1.5s ease-in-out;
+    transform-origin: center center;
+    filter: brightness(100%);
+    overflow: hidden;
+    vertical-align: middle;
+    image-rendering: pixelated;
+    height: 100%;
+    width: 100%;
+}
+
+.img-city-home-user-content:hover {
+    filter: brightness(120%);
+    transform: scale(1.3);
+}

@@ -1,0 +1,227 @@
+.review-user {
+    padding: 0 0 50px 0;
+    border-style: solid;
+    border-width: 1px 0 0 0;
+    border-color: #ced0d4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-user-content {
+    width: 1200px;
+    padding: 20px;
+}
+
+.review-user-content-details {
+    display: flex;
+}
+
+.div-review-user-and-start {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex: auto;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.review-user-and-start {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.h3-title-review-user {
+    font-size: 20px;
+    text-align: center;
+}
+
+.star-review-user {
+    margin-left: 50px;
+}
+
+.a-review-user-and-start {
+    border: 1px solid #23D3D3;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 40px;
+    max-width: 40px;
+    overflow: hidden;
+}
+
+.img-review-user-and-start {
+    overflow: hidden;
+    vertical-align: middle;
+    image-rendering: pixelated;
+    height: 100%;
+    width: 100%;
+}
+
+.name-review-user-and-start {
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #101010;
+}
+
+.name-review-user-and-start:hover {
+    color: #23D3D3;
+}
+
+.left-review-user-content {
+    flex: auto;
+    margin-right: 30px;
+    overflow: hidden;
+}
+
+.title-review-object-user-city-and-category {
+    margin-right: 20px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: #101010;
+    border-style: solid;
+    border-width: 0 0 2px 0;
+    border-color: #23D3D3;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.title-review-city-object-user:hover {
+    color: #23D3D3;
+}
+
+.h1-title-review-object-user {
+    display: block;
+    text-decoration: none;
+    font-size: 32px;
+    color: #101010;
+    font-weight: bold;
+    margin: 30px 0 20px 0;
+    overflow: hidden;
+}
+.h1-title-review-object-user:hover {
+    color: #23D3D3;
+}
+.left-review-user-title-object {
+    overflow: hidden;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: #ced0d4;
+}
+
+.add-review-user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.add-review-user-title {
+    flex: auto;
+}
+
+.add-review-user-btn {
+    border-radius: 20px;
+    border: 1px solid #23D3D3;
+    background-color: #23D3D3;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    transition: transform 80ms ease-in;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.add-review-user-btn:active {
+    transform: scale(0.95);
+}
+
+.add-review-user-btn:hover {
+    background-color: #ffffff;
+    border: 1px solid #23D3D3;
+    color: #23D3D3;
+}
+
+.describe-review-user {
+    padding: 10px;
+}
+
+.comment-review-user {
+    overflow: hidden;
+}
+
+.other-review-user {
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px 30px 20px;
+    overflow: hidden;
+}
+
+.other-review-user-content {
+    width: 1200px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-other-review-user {
+    color: #101010;
+}
+
+.list-other-review-user {
+    display: grid;
+    grid-auto-rows: 350px;
+    gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+    overflow: hidden;
+    font-size: 28px;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+    .review-user-content {
+        max-width: calc(100vw - 20px);
+    }
+    .title-review-object-user-city-and-category {
+        margin-right: 1.5vw
+    }
+    .list-other-review-user {
+        grid-auto-rows: calc(28vw);
+        gap: calc(2.5vw);
+        grid-template-columns: repeat(4, 1fr);
+        overflow: hidden;
+    }
+    .other-review-user {
+        padding-top: 1.5vw;
+        padding-bottom: 2.5vw;
+    }
+    .h3-title-review-user {
+        margin-left: 4vw;
+        font-size: 20px;
+    }
+    .review-object-user-component-title{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .list-other-review-user {
+        grid-auto-rows: calc(50vw);
+        gap: calc(3vw);
+        grid-template-columns: repeat(2, 1fr);
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .review-object-user-star{
+        display: none;
+    }
+}

@@ -1,0 +1,131 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: none !important;
+}
+
+button {
+    cursor: pointer;
+}
+
+.style-button-user-group {
+    background: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+.home-body {
+    margin: 0 auto;
+    width: 1200px;
+    overflow: hidden;
+}
+
+.home-body-container {
+    margin-top: 60px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.home-body-user {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    overflow: hidden;
+}
+
+.title-home-body-user {
+    display: flex;
+    align-items: center;
+}
+
+.h1-title-city-home-user {
+    text-decoration: none;
+    color: #101010;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.h1-title-city-home-user:hover {
+    color: #23D3D3;
+}
+
+.home-flex-city {
+    display: grid;
+    grid-auto-rows: 350px;
+    gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+    overflow: hidden;
+    font-size: 28px;
+}
+
+.home-flex-blog {
+    display: grid;
+    gap: 30px;
+    flex-flow: wrap;
+    grid-template-columns: repeat(3, 1fr);
+    overflow: hidden;
+    font-size: 18px;
+}
+
+.blog-title-home-body-user {
+    margin-top: 20px;
+}
+
+.add-new-blog-user {
+    flex: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 1200px) {
+    .home-body {
+        max-width: calc(100vw - 20px);
+    }
+    .home-flex-city {
+        font-size: calc(2.5vw);
+        grid-auto-rows: calc(28vw);
+        gap: calc(2.5vw);
+        grid-template-columns: repeat(4, 1fr);
+        overflow: hidden;
+    }
+    .home-flex-blog {
+        gap: calc(2.5vw);
+        grid-template-columns: repeat(3, 1fr);
+        overflow: hidden;
+    }
+    .home-body-container {
+        margin-top: 30px;
+    }
+    .left-review-user-content{
+        margin-right: 0px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .home-body {
+        max-width: calc(100vw - 20px);
+    }
+    .home-flex-city {
+        font-size: calc(5vw);
+        grid-auto-rows: calc(50vw);
+        gap: calc(4vw);
+        grid-template-columns: repeat(2, 1fr);
+        overflow: hidden;
+    }
+    .home-flex-blog {
+        gap: calc(4vw);
+        grid-template-columns: repeat(2, 1fr);
+        overflow: hidden;
+    }
+}
+@media screen and (max-width: 350px) {
+    .home-body {
+        max-width: calc(100vw - 10px);
+    }
+    .home-flex-city {
+        font-size: 16px;
+        word-wrap: break-word;
+    }
+    .home-flex-blog{
+        font-size: 16px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

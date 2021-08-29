@@ -1,0 +1,137 @@
+.object-city-user-component {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    border-radius: 15px;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #eeeeee;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+.a-icon-city-user-component {
+    margin: 10px 10px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+    color: #ffffff;
+    background-color: #23D3D3;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.object-city-user-component-content-img {
+    overflow: hidden;
+    height: 80%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.img-object-city-user-component-content {
+    transition: transform 2s, filter 1.5s ease-in-out;
+    transform-origin: center center;
+    filter: brightness(100%);
+    overflow: hidden;
+    vertical-align: middle;
+    image-rendering: pixelated;
+    height: 100%;
+    width: 100%;
+}
+
+.img-object-city-user-component-content:hover {
+    filter: brightness(120%);
+    transform: scale(1.3);
+}
+
+.object-city-user-component-content {
+    font-weight: bold;
+    text-decoration: none;
+    color: #101010;
+    z-index: 1;
+    font-size: 20px;
+    text-align: center;
+}
+
+.div-object-city-user-component-content{
+    max-height: 70px;
+    height:70px; 
+    overflow: hidden; 
+    white-space: nowrap; 
+    text-overflow: ellipsis;
+    padding: 20px;
+    text-align: center;
+}
+
+.object-city-user-component-content:hover {
+    color: #23D3D3;
+}
+
+.div-star-object-city-user-component {
+    flex: auto;
+}
+
+.object-city-user-component-star-and-user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 20px 10px 20px;
+}
+
+.div-a-object-user-add-city-user-component-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-object-user-add-city-user-component-content {
+    border: 1px solid #23D3D3;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    overflow: hidden;
+}
+
+.img-sobject-user-add-city-user-component-content {
+    overflow: hidden;
+    vertical-align: middle;
+    image-rendering: pixelated;
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    .object-city-user-component-content{
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .object-city-user-component-content{
+        font-size: 3.5vw;
+    }
+}
+@media screen and (max-width: 350px) {
+    .object-city-user-component-content{
+        font-size: 16px;
+    }
+    .div-star-object-city-user-component{
+        display: none;
+    }
+    .a-icon-city-user-component{
+        display: none;
+    }
+}

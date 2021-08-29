@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+.h1-signin-signup {
+  font-weight: bold;
+  margin: 0;
+}
+
+.social {
+  color: #101010;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 15px 0;
+  background-color: #ffffff;
+}
+
+.social:hover {
+  color: #23D3D3;
+}
+
+.button-group {
+  border-radius: 30px;
+  border: 1px solid #101010;
+  background-color: #101010;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 40px;
+  margin: 12px 0;
+  letter-spacing: 1px;
+  transition: transform 80ms ease-in;
+}
+
+.button-group:active {
+  transform: scale(0.95);
+}
+
+.button-group:hover {
+  background-color: #23D3D3;
+  border: 1px solid #23D3D3;
+}
+
+.form-signin-signup {
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 50px;
+  height: 100%;
+  text-align: center;
+}
+
+.input-group {
+  border: 1px solid #101010;
+  border-radius: 5px;
+  padding: 14px 15px;
+  margin: 8px 0;
+  width: 100%;
+  color: #101010;
+  font-size: 14px;
+}
+
+.input-group:focus-visible {
+  border: 1px solid #23D3D3;
+  outline: none;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  width: 768px !important;
+  max-width: 100%;
+  min-height: 480px;
+}
+
+.form-container {
+  position: absolute;
+  height: 100%;
+}
+
+.sign-in-container {
+  left: 0;
+  width: 50%;
+}
+
+.sign-up-container {
+  right: 0;
+  width: 50%;
+}
+
+.overlay-container-signin {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.overlay-container-signup {
+  position: absolute;
+  top: 0;
+  right: 50%;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#img-signin-signup {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#icon-arrow-right {
+  margin-right: 5px;
+}
+
+#icon-arrow-left {
+  margin-left: 5px;
+}
+
+.social-container {
+  margin: 20px 0;
+}
+
+.social-container .social {
+  border: 1px solid #484848;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  height: 40px;
+  width: 40px;
+}
+
+.social-container .social:hover {
+  color: #23D3D3;
+  border: 1px solid #23D3D3;
+}
+
+.btn {
+  position: relative;
+  cursor: pointer;
+  display: block;
+}
+

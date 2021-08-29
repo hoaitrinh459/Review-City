@@ -1,0 +1,44 @@
+.blog-home-user {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog-home-user-content {
+    overflow: hidden;
+    height: 85%;
+    width: 100%;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+.name-blog-home-user-content {
+    text-decoration: none;
+    color: #101010;
+    z-index: 1;
+    text-overflow:ellipsis;     
+    overflow:hidden;     
+    display: -webkit-box !important;     
+    -webkit-line-clamp: 2;     
+    -webkit-box-orient: vertical;     
+    white-space: normal;
+}
+
+.div-name-blog-home-user-content{
+    padding: 10px;
+}
+
+.img-blog-home-user-content {
+    vertical-align: middle;
+    image-rendering: pixelated;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.name-blog-home-user-content:hover {
+    color: #23D3D3;
+}

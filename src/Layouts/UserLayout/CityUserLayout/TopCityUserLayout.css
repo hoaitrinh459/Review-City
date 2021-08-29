@@ -1,0 +1,49 @@
+.top-city-user-layout {
+    width: 100%;
+}
+
+.div-top-city-user-layout {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-top-city-user-layout {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.h1-top-city-user-layout {
+    position: absolute;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.h1-top-city-describe-user-layout {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+
+.describe-top-city-user-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px 0 20px;
+}
+
+.describe-content-top-city-user-layout {
+    width: 1200px;
+}
+
+.p-describe-top-city-user-layout {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 1250px) {}

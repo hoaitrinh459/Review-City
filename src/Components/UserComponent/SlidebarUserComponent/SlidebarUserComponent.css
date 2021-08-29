@@ -1,0 +1,35 @@
+.object-user-screen {
+    min-height: 100vh;
+}
+
+.slidebar-user {
+    max-height: 40vh;
+    overflow: hidden;
+}
+
+.slidebar-user-item {
+    overflow: hidden;
+    border-style: solid;
+    border-width: 0 2px 0 2px;
+    border-color: #ffffff;
+}
+
+.img-slidebar-user-item {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slick-arrow.slick-prev {
+    z-index: 1;
+    left: 50px;
+}
+
+.slick-arrow.slick-next {
+    z-index: 1;
+    right: 50px;
+}
+
+.slick-slider.slick-initialized {
+    max-height: 40vh;
+}

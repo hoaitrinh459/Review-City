@@ -1,0 +1,36 @@
+.img-new-object-user-layout-content {
+    height: 80px;
+    max-height: 80px;
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+.img-new-object-user-layout-content-details {
+    height: 80px;
+    max-height: 80px;
+}
+
+.category-input-group-add-new-object-user-layout:disabled {
+    background: #ced0d4;
+    border-color: #ced0d4;
+    color: #101010;
+}
+
+#img-demo-block {
+    display: block;
+}
+
+#img-demo-none {
+    display: none;
+}
+
+.draft-editor-add-new-object-user-layout {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #101010;
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: 16px;
+    max-height: 330px;
+    height: 330px;
+}

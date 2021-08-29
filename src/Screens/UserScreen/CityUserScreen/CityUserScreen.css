@@ -1,0 +1,339 @@
+
+.city-user-details {
+    padding-bottom: 20px;
+}
+
+.city-user-details-content{
+    padding: 0 20px;
+}
+
+.city-user-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.city-detail-content-boder-bottom{
+    width: 1200px;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: #ced0d4;
+    display: flex;
+
+}
+.city-user-content-detial {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: auto;
+}
+
+.city-user-title-content {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+#group-title-city-user-content {
+    margin-right: 40px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: #23D3D3;
+    border-style: solid;
+    border-width: 0 0 2px 0;
+    border-color: #23D3D3;
+}
+
+#title-focus {
+    color: #23D3D3;
+    border-style: solid;
+    border-width: 0 0 2px 0;
+    border-color: #23D3D3;
+}
+
+.group-title-user-content {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: #101010;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.facity-and-map-city-user {
+    margin-right: 10px;
+    ;
+}
+
+.group-title-user-content:hover {
+    color: #23D3D3;
+    border-style: solid;
+    border-width: 0 0 2px 0;
+    border-color: #23D3D3;
+}
+
+.map-city-user-content {
+    border-radius: 20px;
+    border: 1px solid #23D3D3;
+    background-color: #23D3D3;
+    color: #FFFFFF;
+    font-weight: 600;
+    padding: 10px 30px;
+    margin: 12px 10px 12px 0;
+    letter-spacing: 1px;
+    transition: transform 80ms ease-in;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.map-city-user-content:active {
+    transform: scale(0.95);
+}
+
+.map-city-user-content:hover {
+    background-color: #ffffff;
+    border: 1px solid #23D3D3;
+    color: #23D3D3;
+}
+
+.view-map-user-click-btn {
+    display: none;
+    height: 450px;
+}
+
+.view-map-user {
+    display: block;
+}
+
+.object-city-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.object-city-user-detail {
+    width: 1200px;
+    padding: 20px;
+}
+
+.object-city-user-detail-content {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.h2-title-object-city-user {
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+.hotel {
+    display: none;
+}
+
+.food {
+    display: none;
+}
+
+.discover {
+    display: none;
+}
+
+.div-object-city-user-detail-content {
+    display: grid;
+    grid-auto-rows: 350px;
+    gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+    overflow: hidden;
+}
+
+.list-city-other-user {
+    display: grid;
+    grid-auto-rows: 350px;
+    gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+    overflow: hidden;
+    font-size: 28px;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+.other-city-user {
+    background-color: #101010;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.other-city-user-content {
+    width: 1200px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-other-city-user {
+    color: #ffffff;
+}
+
+.ReactModal__Overlay.ReactModal__Overlay--after-open {
+    transition: all 0.3s ease 0s;
+    background: rgba(0, 0, 0, 0.8) !important;
+    z-index: 2 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.modal-user-add-new-object {
+    border-radius: 10px;
+    transition: all 0.3s ease 0s;
+    background: #ffffff;
+    max-width: 800px;
+    overflow: hidden;
+}
+
+.modal-user-btn-close {
+    font-size: 30px;
+    color: #101010;
+    background: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.modal-user-btn-close:hover {
+    color: #23D3D3;
+}
+
+.modal-user-add-new-object-content-btn-close {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.city-user-detail-content-group-title{
+    display: flex;
+    flex: auto;
+}
+.title-other-user{
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .object-city-user-detail {
+        max-width: calc(100vw - 20px);
+    }
+    .city-detail-content-boder-bottom {
+        max-width: calc(100vw - 20px);
+    }
+    .group-title-user-content{
+        font-size: 16px;
+        margin-right: 0px;
+    }
+    #group-title-city-user-content{
+        margin-right: 0px;
+        font-size: 16px;
+    }
+    .map-city-user-content{
+        font-size: 16px;
+    }
+    .view-map-user-click-btn {
+        height: 37vw;
+    }
+    .div-object-city-user-detail-content {
+        font-size: calc(2.3vw);
+        grid-auto-rows: calc(28vw);
+        gap: calc(2.5vw);
+        grid-template-columns: repeat(4, 1fr);
+        overflow: hidden;
+    }
+    .list-city-other-user {
+        font-size: calc(2.5vw);
+        grid-auto-rows: calc(28vw);
+        gap: calc(2.5vw);
+        grid-template-columns: repeat(4, 1fr);
+        overflow: hidden;
+    }
+    .city-user-content {
+        font-size: 18px;
+    }
+    /* .modal-user-add-new-object {
+        margin-top: 8.3vw;
+        margin-bottom: 8.3vw;
+    } */
+}
+
+@media screen and (max-width: 768px) {
+    .object-city-user-detail {
+        max-width: calc(100vw - 20px);
+    }
+    .city-detail-content-boder-bottom {
+        max-width: calc(100vw - 20px);
+    }
+    .h2-title-object-city-user {
+        font-size: 18px;
+    }
+    .modal-user-add-new-object {
+        max-width: 90vw;
+    }
+    #group-title-city-user-content{
+        margin-right: 0px;
+    }
+    .group-title-user-content{
+        margin-right: 0px;
+    }
+    .view-map-city-uer{
+        display: none;
+    }
+    .div-object-city-user-detail-content {
+        font-size: calc(5vw);
+        grid-auto-rows: calc(50vw);
+        gap: calc(4vw);
+        grid-template-columns: repeat(2, 1fr);
+        overflow: hidden;
+    }
+    .list-city-other-user {
+        font-size: calc(5vw);
+        grid-auto-rows: calc(50vw);
+        gap: calc(4vw);
+        grid-template-columns: repeat(2, 1fr);
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .object-city-user-detail {
+        max-width: calc(100vw - 20px);
+    }
+    .city-detail-content-boder-bottom {
+        max-width: calc(100vw - 20px);
+    }
+    .map-city-user-content{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .object-city-user-detail {
+        max-width: calc(100vw - 20px);
+    }
+    .city-detail-content-boder-bottom {
+        max-width: calc(100vw - 20px);
+    }
+    .list-city-other-user {
+        font-size: 16px;
+        word-wrap: break-word;
+    }
+}

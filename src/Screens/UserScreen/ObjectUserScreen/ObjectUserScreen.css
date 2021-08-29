@@ -1,0 +1,273 @@
+
+.object-user {
+    margin: 50px 0 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.object-user-content {
+    width: 1200px;
+    padding: 20px;
+}
+
+.object-user-content-details {
+    display: flex;
+}
+
+.right-object-user-content {
+    max-width: 320px;
+    padding: 0 10px 0 10px;
+}
+
+.div-right-object-user-content-details {
+    width: 320px;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+    border: solid 1px #eee;
+    background-color: #ffffff;
+    background: #fff;
+    overflow: hidden;
+    height: 450px;
+    position: sticky;
+    top: 90px;
+}
+
+.div-right-a-review-object-user-add-component-content {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex: auto;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.right-a-review-object-user-add-review-user-component-content {
+    border: 1px solid #23D3D3;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 40px;
+    max-width: 40px;
+    overflow: hidden;
+}
+
+.right-img-review-object-user-add-riview-user-component-content {
+    overflow: hidden;
+    vertical-align: middle;
+    image-rendering: pixelated;
+    height: 100%;
+    width: 100%;
+}
+
+.right-a-review-object-title-user {
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #101010;
+}
+
+.right-a-review-object-title-user:hover {
+    color: #23D3D3;
+}
+
+.div-right-object-user-map {
+    width: 100%;
+    height: 100%;
+}
+
+.div-right-object-user-content-item {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-right-address-object {
+    margin: 10px;
+    font-size: 18px;
+}
+
+.left-object-user-content {
+    flex: auto;
+    margin-right: 30px;
+}
+
+.title-object-user-city-and-category {
+    margin-right: 20px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: #101010;
+    border-style: solid;
+    border-width: 0 0 2px 0;
+    border-color: #23D3D3;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.title-city-object-user:hover {
+    color: #23D3D3;
+}
+
+.h1-title-object-user {
+    margin: 30px 0 20px 0;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.star-object-user {
+    margin-bottom: 20px;
+}
+
+.add-review-user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.add-review-user-title {
+    flex: auto;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.add-review-user-btn {
+    border-radius: 20px;
+    border: 1px solid #23D3D3;
+    background-color: #23D3D3;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    transition: transform 80ms ease-in;
+    text-decoration: none;
+}
+
+.add-review-user-btn:active {
+    transform: scale(0.95);
+}
+
+.add-review-user-btn:hover {
+    background-color: #ffffff;
+    border: 1px solid #23D3D3;
+    color: #23D3D3;
+}
+
+.grid-review-object-user {
+    display: grid;
+    grid-auto-rows: 350px;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+.other-object-user {
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px 30px 20px;
+    overflow: hidden;
+}
+
+.other-object-user-content {
+    width: 1200px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-other-object-user {
+    color: #101010;
+}
+
+.list-object-other-user {
+    display: grid;
+    grid-auto-rows: 350px;
+    gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+    overflow: hidden;
+    font-size: 28px;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+    .object-user-content {
+        max-width: calc(100vw - 20px);
+    }
+    .title-object-user-city-and-category {
+        margin-right: 1.5vw
+    }
+    .grid-review-object-user {
+        grid-auto-rows: calc(28vw);
+        gap: calc(2.5vw);
+        grid-template-columns: repeat(3, 1fr);
+        overflow: hidden;
+    }
+    .list-object-other-user {
+        grid-auto-rows: calc(28vw);
+        gap: calc(2.5vw);
+        grid-template-columns: repeat(4, 1fr);
+        overflow: hidden;
+    }
+    .other-object-user {
+        padding-top: 1.5vw;
+        padding-bottom: 2.5vw;
+    }
+    .div-right-address-object {
+        font-size: 16px;
+    }
+    .div-right-object-user-content-details {
+        height: 37vw;
+        max-width: 25vw;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .right-object-user-content{
+        display: none;
+    }
+    .left-object-user-content{
+        margin-right: 0px;
+    }
+    .grid-review-object-user{
+        gap: calc(4vw);
+        grid-auto-rows: calc(35vw);
+        grid-template-columns: repeat(3, 1fr);
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .review-object-user-component-title{
+        font-size: 16px;
+    }
+    .grid-review-object-user{
+        gap: calc(4vw);
+        grid-auto-rows: calc(50vw);
+        grid-template-columns: repeat(2, 1fr);
+        overflow: hidden;
+    }
+    .list-object-other-user {
+        grid-auto-rows: calc(50vw);
+        gap: calc(4vw);
+        grid-template-columns: repeat(2, 1fr);
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .review-object-user-star{
+        display: none;
+    }
+    .add-review-user-btn{
+        display: none
+    }
+}
